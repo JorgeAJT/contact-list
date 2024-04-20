@@ -6,7 +6,7 @@ import { Context } from "../store/appContext";
 import "../../styles/home.css";
 import profileImage from "../../img/profile-image.jpg"
 
-export const Contact = () => {
+export const Contacts = () => {
 	const { store, actions } = useContext(Context);
 	let contactID = 0
 
